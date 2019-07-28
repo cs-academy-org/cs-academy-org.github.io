@@ -1,22 +1,113 @@
+@import url('normalize.css');
+/*Estilos Generales
+---------------------------------------------------------*/
 body{
-	background: #fff url(../images/bg2.jpg) no-repeat top right;
-	background-attachment: fixed;
+    font-family: 'Open Sans Condensed','Arial Narrow', serif;
+    background-attachment: fixed;
 	background-size: cover;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #000c1a;
 }
+section{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+h1{
+    font-size: 40px;
+    text-decoration: underline ;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Para navbar
+---------------------------------------------------------*/
+#nav {
+    padding-right: 0;
+}
+.navbar-collapse.show{
+    align-content: center;
+}
+
+.list-inline-item>a {
+    padding-left: 10px;
+    font-weight: bold;
+    color: #000c1a;
+}
+.list-inline-item>a:hover {
+    color: #007BFF;
+}
+.navbar-brand{
+    color: #000c1a;
+}
+.navbar-brand:hover{
+    color: #007BFF;
+}
+
+.logo.navbar-brand{
+    padding: 0 !important;
+}
+
+a.navbar-brand{
+    margin-left: 15%;
+    font-size: 28px;
+}
+.navbar-header,
+.navbar-collapse{
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-header{
+    padding-left: 10px;
+}
+.icon-bar{
+    background-color: #000c1a;
+}
+/*Efecto particulas
+--------------------------------------------------------------*/
+#particles-js{
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#intro-div {
+    position: relative;
+}
+.inside,
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top :0;
+    left: 0;
+}
+.inside{
+    z-index:-10;
+}
+#intro {
+    padding: 0 !important;
+}
+/*Para los efectos de las palabras del banner
+------------------------------------------------------------*/
 .rw-wrapper{
-	width: 80%;
+    width: 80%;
 	position: relative;
-	margin: 110px auto 0 auto;
+	margin: 5% auto 0 auto;
 	padding: 10px;
 }
 .rw-sentence{
 	margin: 0;
+    margin-bottom: 5%;
 	text-transform: uppercase;
 	font-weight: 300;
 	text-shadow: 0 0 0 rgba(0,0,0,0.0001);
 }
 .rw-sentence span{
-	color: #000;
+	color: #f7f5f6;
 	white-space: nowrap;
 }
 .rw-sentence > span:first-child{
@@ -40,7 +131,8 @@ body{
 .rw-words-1 span{
 	font-size: 500%;
 	line-height: 82%;
-	-webkit-animation: rotateWordsFirst 18s linear infinite 0s;
+    color: #f7f5f6;
+    -webkit-animation: rotateWordsFirst 18s linear infinite 0s;
 	-ms-animation: rotateWordsFirst 18s linear infinite 0s;
 	animation: rotateWordsFirst 18s linear infinite 0s;
 }
@@ -49,7 +141,7 @@ body{
 	font-style: italic;
 	text-indent: 5px;
 	line-height: 90%;
-	color: #da0a0a;	
+	color: #007BFF;
 	-webkit-animation: rotateWordsSecond 18s ease-in infinite 0s;
 	-ms-animation: rotateWordsSecond 18s ease-in infinite 0s;
 	animation: rotateWordsSecond 18s ease-in infinite 0s;
@@ -101,6 +193,31 @@ body{
     100% { opacity: 0; }
 }
 @-webkit-keyframes rotateWordsSecond {
+    0% { opacity: 0; -webkit-animation-timing-function: ease-in; width: 0px;}
+    5% { opacity: 1; -webkit-animation-timing-function: ease-out; width: 100%;}
+    10% { opacity: 1; -webkit-animation-timing-function: ease-out; width: 100%;}
+    20% { opacity: 1; }
+    30% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWordsSecond {
+    0% { opacity: 0; -ms-animation-timing-function: ease-in; width: 0px;}
+    5% { opacity: 1; -ms-animation-timing-function: ease-out; width: 100%;}
+    10% { opacity: 1; -ms-animation-timing-function: ease-out; width: 100%;}
+    20% { opacity: 1; }
+    30% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWordsSecond {
+    0% { opacity: 0; -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; width: 0px;}
+    5% { opacity: 0; -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; width: 0px;}
+    10% { opacity: 1; -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; width: 100%;}
+    20% { opacity: 1; }
+    30% { opacity: 0; }
+    100% { opacity: 0; }
+}
+/*
+@-webkit-keyframes rotateWordsSecond {
     0% { opacity: 0; -webkit-transform: translateZ(600px) translateX(200px);}
     8% { opacity: 1; -webkit-transform: translateZ(0px) translateX(0px);}
     17% { opacity: 1; }
@@ -120,7 +237,7 @@ body{
     17% { opacity: 1; }
     25% { opacity: 0; }
     100% { opacity: 0; }
-}
+}*/
 @media screen and (max-width: 1060px){
 	.rw-words{ height: 55px; }
 	.rw-words-1 span{ font-size: 280%; text-indent: 5px;}
@@ -137,4 +254,158 @@ body{
 	.rw-words-1 span{ font-size: 140%; text-indent: 5px;}
 	.rw-words-2 span { font-size: 70%; }
 	.rw-sentence > span:first-child{ font-size: 60%;}
+}
+/*Para Servicios
+--------------------------------------------------------*/
+
+#servicios {
+    background-color: #001334;
+}
+
+/*Para los cursos
+--------------------------------------------------------*/
+
+.wow-pricing-table {
+    list-style:none;
+    margin:0;
+    margin-top:20px;
+    padding:0;
+}
+.wow-pricing-table div {
+    list-style:none;
+}
+.wow-pricing-table>div {
+    list-style:none;
+    text-shadow:none;
+    margin-bottom:0px;
+    margin:0px 15px;
+}
+
+.wow-pricing-table .wow-pricing-header {
+    text-align:center;
+    padding:20px 0px 0px 0 ;
+}
+.wow-pricing-table .wow-pricing-header h5 {
+    color:#fff;
+    font-size:22px;
+    margin:0;
+    padding:0 20px 15px;
+}
+.wow-pricing-table .wow-pricing-cost {
+    color:#fff;
+    font-size:1.500em;
+    line-height:1em;
+    padding-top:10px;
+    padding-bottom:10px;
+    background:#007BFF;
+}
+.wow-pricing-table .wow-pricing-cost>p{
+    margin: 0;
+}
+
+
+.wow-pricing-table .wow-pricing-content {
+    text-align:center;
+    color: #ffffff;
+}
+.wow-pricing-table .wow-pricing-content ul {
+    margin:0 !important;
+    list-style:none !important;
+    padding-left:0;
+}
+.wow-pricing-table .wow-pricing-content ul li {
+    margin:0 !important;
+    padding:10px 20px !important;
+    list-style:none !important;
+    color:#fff;
+}
+
+.wow-pricing-table .wow-pricing-button {
+    text-align:center;
+    padding:35px 20px 35px;
+}
+
+.wow-pricing-table .wow-pricing-button .wow-button {
+    float:none;
+    margin:0 auto;
+    border-radius:3px;
+    padding:12px 22px 14px;
+}
+
+.wow-pricing-table .buttonprice {
+    background-color: #fff;
+    color: #007BFF;
+    font-size:20px;
+}
+
+
+.wow-pricing-button>.buttonprice:hover{
+    color: #fff;
+    background-color: #007BFF;
+}
+
+a:hover,a:focus {
+    color: #007BFF;
+}
+/*Para Equipo
+--------------------------------------------------------*/
+#equipo {
+    background-color: #001334;
+}
+
+
+/*Formulario de contacto
+--------------------------------------------------------*/
+.regularform input,.regularform textarea {
+    margin-bottom:15px;
+    padding:15px;
+    border:1px solid #001334;
+}
+#pmSubmit {
+    border:0;
+    color: #007BFF;
+    background-color: #ffffff;
+}
+#pmSubmit:hover,
+#pmSubmit:focus{
+    color: #ffffff;
+    background-color: #007BFF;
+}
+.regularform textarea {
+    height:150px;
+}
+.regularform input.norightborder {
+    border-right:0;
+}
+
+#contactform>*{
+    background-color: #001b4d;
+    color: #ffffff;
+}
+/*Typing Effect
+---------------------------------------------------------*/
+.blink{
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    to {opacity: .0;}
+}
+.flex {
+    display: flex;
+}
+.typing{
+    font-size: 24px;
+    font-family: Raleway;
+}
+.typing>a{
+    color: #007BFF !important;
+}
+
+/*Para social
+----------------------------------------------------------*/
+i.fab {
+    color: #ffffff;
+}
+i.fab:hover, i.fab:focus {
+    color: #007BFF;
 }

@@ -7,14 +7,15 @@ body{
 	font-family: 'Open Sans Condensed','Arial Narrow', serif;
 	font-weight: 400;
 	font-size: 15px;
-	color: #333;
+	color: #ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	overflow-x: hidden;
+    background-color: #000c1a !important;
 }
 a{
-	color: #555;
+	color: #fff;
 	text-decoration: none;
 }
 .container{
@@ -98,7 +99,7 @@ a{
 	margin: 0px 4px;
 	padding: 0px 6px;
 	color: #aaa;
-	line-height: 20px;	
+	line-height: 20px;
 	font-size: 13px;
 	text-shadow: 1px 1px 1px #fff;
 	border: 1px solid #fff;
@@ -127,4 +128,7 @@ a{
 .rw-sentence-IE{
 	display: none;
 	padding: 30px;
+}
+.rw-sentence{
+
 }
