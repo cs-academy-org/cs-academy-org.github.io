@@ -37,6 +37,12 @@ ul{
     padding-right: 0;
 }
 
+@media screen and (max-width: 400px){
+    a.navbar-brand{
+        font-size: 24px !important;
+    }
+}
+
 a.nav-link {
     /*padding-left: 20px !important;*/
     font-weight: bold;
@@ -255,7 +261,16 @@ a.navbar-brand{
 #servicios {
     background-color: #001334;
 }
-
+.service-ico{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.service-ico:hover{
+    width: 112px;
+    height: 112px;
+}
 .ico-cursos-1 {
     fill: none;
     stroke: #007BFF;
@@ -301,12 +316,11 @@ a.navbar-brand{
     color:#fff;
     font-size:1.500em;
     line-height:1em;
-    padding-top:10px;
-    padding-bottom:10px;
     background:#007BFF;
 }
 .wow-pricing-table .wow-pricing-cost>p{
     margin: 0;
+    padding:10px;
 }
 
 
