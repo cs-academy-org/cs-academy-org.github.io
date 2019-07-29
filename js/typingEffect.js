@@ -3,7 +3,7 @@
  */
 const words = [
     "proxychains ","anonsurf ","recon-ng ","ncat ",
-    "nbtscan ", "nmap ","searchexploit ","msfconsole ",
+    "nbtscan ", "nmap ","searchsploit ","msfconsole ",
     "msfvenom ","mimihatz ","tshark ","hydra ",
     "medusa ","john ","ncrack ","hashcat ",
     "aircrack-ng ","aireplay-ng ","mdk3","reaver",
@@ -25,7 +25,7 @@ function typingEffect(){
             deletingEffect();
             return false;
         }
-        timer = setTimeout(loopTyping,300);
+        timer = setTimeout(loopTyping,200);
     };
     loopTyping();
 }

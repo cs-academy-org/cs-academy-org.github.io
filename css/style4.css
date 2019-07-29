@@ -15,11 +15,20 @@ section{
 }
 h1{
     font-size: 40px;
-    text-decoration: underline ;
+    text-transform: uppercase;
 }
 a{
     color: #fff;
     text-decoration: none;
+}
+/*Imagenes redondas con shadow*/
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    -webkit-box-shadow: 0 5px 5px 0 #adb5bd;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+}
+ul{
+    padding: 0 !important;
 }
 
 /*Para navbar
@@ -27,16 +36,13 @@ a{
 #nav {
     padding-right: 0;
 }
-.navbar-collapse.show{
-    align-content: center;
-}
 
-.list-inline-item>a {
-    padding-left: 10px;
+a.nav-link {
+    /*padding-left: 20px !important;*/
     font-weight: bold;
     color: #000c1a;
 }
-.list-inline-item>a:hover {
+a.nav-link:hover {
     color: #007BFF;
 }
 .navbar-brand{
@@ -51,20 +57,26 @@ a{
 }
 
 a.navbar-brand{
-    margin-left: 15%;
     font-size: 28px;
+    margin-right: 0;
 }
 .navbar-header,
 .navbar-collapse{
     padding-right: 0;
     padding-left: 0;
 }
-.navbar-header{
-    padding-left: 10px;
-}
 .icon-bar{
     background-color: #000c1a;
 }
+
+.navbar-toggle{
+    margin-right: 5px;
+}
+
+#myNavbar{
+    text-align: center;
+}
+
 /*Efecto particulas
 --------------------------------------------------------------*/
 #particles-js{
@@ -89,12 +101,14 @@ a.navbar-brand{
     z-index:-10;
 }
 #intro {
-    padding: 0 !important;
+
+    padding:0 ;
+    padding-top: 50px;
 }
 /*Para los efectos de las palabras del banner
 ------------------------------------------------------------*/
 .rw-wrapper{
-    width: 80%;
+    width: 100%;
 	position: relative;
 	margin: 5% auto 0 auto;
 	padding: 10px;
@@ -104,6 +118,7 @@ a.navbar-brand{
     margin-bottom: 5%;
 	text-transform: uppercase;
 	font-weight: 300;
+    font-size: 1.5em;
 	text-shadow: 0 0 0 rgba(0,0,0,0.0001);
 }
 .rw-sentence span{
@@ -216,28 +231,6 @@ a.navbar-brand{
     30% { opacity: 0; }
     100% { opacity: 0; }
 }
-/*
-@-webkit-keyframes rotateWordsSecond {
-    0% { opacity: 0; -webkit-transform: translateZ(600px) translateX(200px);}
-    8% { opacity: 1; -webkit-transform: translateZ(0px) translateX(0px);}
-    17% { opacity: 1; }
-    25% { opacity: 0; }
-    100% { opacity: 0; }
-}
-@-ms-keyframes rotateWordsSecond {
-    0% { opacity: 0; -ms-transform: translateZ(600px) translateX(200px);}
-    8% { opacity: 1; -ms-transform: translateZ(0px) translateX(0px);}
-    17% { opacity: 1; }
-    25% { opacity: 0; }
-    100% { opacity: 0; }
-}
-@keyframes rotateWordsSecond {
-    0% { opacity: 0; -webkit-transform: translateZ(600px) translateX(200px); transform: translateZ(600px) translateX(200px);}
-    8% { opacity: 1; -webkit-transform: translateZ(0px) translateX(0px); transform: translateZ(0px) translateX(0px);}
-    17% { opacity: 1; }
-    25% { opacity: 0; }
-    100% { opacity: 0; }
-}*/
 @media screen and (max-width: 1060px){
 	.rw-words{ height: 55px; }
 	.rw-words-1 span{ font-size: 280%; text-indent: 5px;}
@@ -255,11 +248,23 @@ a.navbar-brand{
 	.rw-words-2 span { font-size: 70%; }
 	.rw-sentence > span:first-child{ font-size: 60%;}
 }
+
 /*Para Servicios
 --------------------------------------------------------*/
 
 #servicios {
     background-color: #001334;
+}
+
+.ico-cursos-1 {
+    fill: none;
+    stroke: #007BFF;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3px;
+}
+.ico-cursos-2{
+    fill: #007BFF;
 }
 
 /*Para los cursos
@@ -290,6 +295,7 @@ a.navbar-brand{
     font-size:22px;
     margin:0;
     padding:0 20px 15px;
+    height: 64px;
 }
 .wow-pricing-table .wow-pricing-cost {
     color:#fff;
@@ -308,11 +314,13 @@ a.navbar-brand{
     text-align:center;
     color: #ffffff;
 }
+
 .wow-pricing-table .wow-pricing-content ul {
     margin:0 !important;
     list-style:none !important;
     padding-left:0;
 }
+
 .wow-pricing-table .wow-pricing-content ul li {
     margin:0 !important;
     padding:10px 20px !important;
@@ -333,15 +341,16 @@ a.navbar-brand{
 }
 
 .wow-pricing-table .buttonprice {
-    background-color: #fff;
-    color: #007BFF;
+    background-color: #001334;
+    color: #fff;
+    border: solid 1px #fff;
     font-size:20px;
 }
 
 
 .wow-pricing-button>.buttonprice:hover{
-    color: #fff;
-    background-color: #007BFF;
+    color: #007BFF;
+    border: solid 1px #007BFF;
 }
 
 a:hover,a:focus {
@@ -353,6 +362,14 @@ a:hover,a:focus {
     background-color: #001334;
 }
 
+#mail:hover> * {
+    color: #007BFF;
+}
+#mail-ico {
+    padding-left: 0;
+    padding-right: 5px;
+    font-size: 20px;
+}
 
 /*Formulario de contacto
 --------------------------------------------------------*/
@@ -361,19 +378,23 @@ a:hover,a:focus {
     padding:15px;
     border:1px solid #001334;
 }
+
 #pmSubmit {
     border:0;
     color: #007BFF;
     background-color: #ffffff;
 }
+
 #pmSubmit:hover,
 #pmSubmit:focus{
     color: #ffffff;
     background-color: #007BFF;
 }
+
 .regularform textarea {
     height:150px;
 }
+
 .regularform input.norightborder {
     border-right:0;
 }
@@ -382,30 +403,44 @@ a:hover,a:focus {
     background-color: #001b4d;
     color: #ffffff;
 }
+
 /*Typing Effect
 ---------------------------------------------------------*/
+
 .blink{
     animation: blink 1s infinite;
 }
+
 @keyframes blink {
     to {opacity: .0;}
 }
+
 .flex {
     display: flex;
 }
+
 .typing{
-    font-size: 24px;
+    font-size: 20px;
     font-family: Raleway;
+    line-height: 20px;
 }
-.typing>a{
-    color: #007BFF !important;
+
+/*Texto de descripción*/
+.information>p{
+    font-size: 24px;
+}
+a.red{
+    color: #CC0000 !important;
+}
+a.green{
+    color: #00FF00 !important;
+}
+a.yellow{
+    color: #ffff00 !important;
+}
+a.blue{
+    color: cyan !important;
 }
 
 /*Para social
 ----------------------------------------------------------*/
-i.fab {
-    color: #ffffff;
-}
-i.fab:hover, i.fab:focus {
-    color: #007BFF;
-}

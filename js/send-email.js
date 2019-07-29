@@ -10,15 +10,20 @@ function sendMail(){
 
 function hackingEtico(){
     document.getElementById('pmSubject').value = "Solicitar Curso";
-    document.getElementById('pmBody').value = "Saludos, quiero solicitar el curso de Hacking Ético.";
+    document.getElementById('pmBody').value = "Saludos, quiero solicitar el curso de Introducción al Hacking Ético.";
 }
 
 function hackingAvanzado(){
     document.getElementById('pmSubject').value = "Solicitar Curso";
-    document.getElementById('pmBody').value = "Saludos, quiero solicitar el curso de Hacking Avanzado.";
+    document.getElementById('pmBody').value = "Saludos, quiero solicitar el curso de Hacking Ético Avanzado.";
 }
 
 function personalizado(){
     document.getElementById('pmSubject').value = "Solicitar Curso";
     document.getElementById('pmBody').value = "Saludos, quiero solicitar un curso personalizado: \n {sustituya esto por sus intereses}";
+}
+
+function linux(){
+    document.getElementById('pmSubject').value = "Solicitar Curso";
+    document.getElementById('pmBody').value = "Saludos, quiero solicitar el curso de GNU/LINUX.";
 }

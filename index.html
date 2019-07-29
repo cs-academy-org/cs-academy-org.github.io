@@ -18,25 +18,21 @@
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-    <!--link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>-->
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="css/landing-page.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
     <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
     <link rel="stylesheet" type="text/css" href="css/style4.css" />
 
-
-
 </head>
 
-<body>
+<body id="page-top">
+
 <!-- Navigation -->
-<!--<nav class="navbar navbar-light bg-light static-top">-->
-<nav class=" navbar navbar-expand-md yellow bg-light">
-    <!-- Ediciones temporales -->
-    <div class="container-fluid" id="nav">
+<nav class=" navbar navbar-fixed-top navbar-expand-md bg-light" id="mainNav">
+    <div class="container-fluid" >
         <div class="navbar-header visible-md visible-lg visible-xl col-md-2 col-lg-1 col-xl-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-5 navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -44,33 +40,37 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <img alt=""class="logo navbar-brand"src="img/logo1.png">
-            <a class="navbar-brand" href="#">CS-ACADEMY</a>
+            <img alt="" class="logo navbar-brand " src="img/logo1.png">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">CS-ACADEMY</a>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="list-inline mb-2">
-                <li class="list-inline-item" id="first-item">
-                    <a href="#servicios">SERVICIOS</a>
+        <div class="collapse navbar-collapse " id="myNavbar">
+            <ul class="navbar-nav  mb-2 ">
+                <li class="nav-item">
+                    <a class="js-scroll-trigger nav-link" href="#servicios">SERVICIOS</a>
                 </li>
-                <li class="list-inline-item">
-                    <a href="#cursos">CURSOS</a>
+                <li class="nav-item">
+                    <a class="js-scroll-trigger nav-link" href="#cursos">CURSOS</a>
                 </li>
-                <li class="list-inline-item">
-                    <a href="#equipo">NOSOTROS</a>
+                <li class="nav-item">
+                    <a class="js-scroll-trigger nav-link" href="#equipo">NOSOTROS</a>
                 </li>
-                <li class="list-inline-item">
-                    <a href="#contact">CONTACTO</a>
+                <li class="nav-item">
+                    <a class="js-scroll-trigger nav-link" href="#contact">CONTACTO</a>
                 </li>
+                <div class="clearfix"> </div>
             </ul>
         </div>
     </div>
 </nav>
+
+<!--Introduccion, particulas
+------------------------------------------------------------->
 <section id="intro">
     <div class="container-fluid" id="intro-div">
         <div id="particles-js"></div>
 
         <div class="rw-wrapper inside">
-            <h2 class="rw-sentence col-xs-12">
+            <div class="rw-sentence col-xs-12">
                 <span>Cursos de Ciberseguridad <br class="visible-xs">& Auditorías</span>
                 <div class="rw-words rw-words-1">
                     <span>Aprende</span>
@@ -88,12 +88,22 @@
                     <span>tus habilidades</span>
                     <span>Económicos</span>
                 </div>
-            </h2>
+            </div>
         </div>
+        <!--Conocenos-->
+        <div class="container information">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis cursus eros, eu congue risus eleifend ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet mi diam, at consequat ex imperdiet eu. Nullam vulputate sollicitudin libero, tristique ullamcorper ante pretium eget. Nunc vehicula, risus ut hendrerit ornare, tortor est mattis urna, vitae egestas arcu tellus quis est. Sed mollis est sem. Aenean rhoncus ultricies sapien, id tempus elit lobortis ac. Pellentesque condimentum gravida purus a pretium. Nulla sed sapien mattis, auctor lacus quis, volutpat metus. Nunc mattis diam elit, viverra tincidunt nisl faucibus eu. Duis ac nisl tellus. Aenean eros lectus, malesuada in ex non, pharetra aliquam odio. Aenean ultricies pharetra mauris, ac rutrum quam posuere at. Phasellus et tempor turpis, ut sodales turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <p>Sed fringilla orci at elit gravida, posuere varius elit eleifend. Nam libero dui, rutrum ac massa et, dictum egestas massa. Fusce rutrum, neque vitae vestibulum mattis, magna orci dictum turpis, ut laoreet eros urna lacinia ipsum. Donec eget ultrices eros. Duis sollicitudin ante est. Maecenas semper pellentesque scelerisque. Vestibulum eu venenatis tellus. Etiam nec massa sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam blandit molestie justo, non euismod dolor aliquet ac. Duis consectetur enim in arcu suscipit, in tempus nisi commodo.</p>
+        </div>
+        <br>
+        <div class="container">
+            <p class="typing"><a class="red">&boxdr;&boxh;[</a><a class="green">hacker</a><a class="yellow">@</a><a class="blue">cs-academy</a><a class="red">]&boxh;[</a><a class="green">&backsim;</a><a class="red">]</a> <br><a class="red">&boxur;&boxh;&boxh; </a> <a class="yellow">$</a> <a id="word" class="green"></a><a class="blink">_</a></p>
+        </div>
+        <br>
     </div>
 </section>
 
-
+</section>
 <!-- Servicios -->
 <section id="servicios" class="features-icons text-center">
     <div class="container">
@@ -102,7 +112,11 @@
             <div class="col-lg-4">
                 <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                     <div class="features-icons-icon d-flex">
-                        <i class="icon-screen-desktop m-auto text-primary"></i>
+                        <svg id="ico-cursos" data-name="Layer 1" viewBox="0 0 83 83">
+                            <path class="ico-cursos-1" d="M76,26.86,69.63,30.7q-12.51,7.52-25,15a2,2,0,0,1-2.33.09q-16-9.21-32-18.35c-.29-.16-.54-.38-1-.72l6.52-2q13-4,26-8a3.68,3.68,0,0,1,2-.07q15.53,4.8,31,9.7C75.14,26.5,75.4,26.62,76,26.86Z"/>
+                            <path class="ico-cursos-1" d="M65,40.21c.88,3.86,1.87,7.5,2.44,11.2A4.37,4.37,0,0,1,66,54.79c-6.68,5.32-13.78,10-22,12.71a10.81,10.81,0,0,1-8.78-1.18,73.85,73.85,0,0,1-15-10.19,5.42,5.42,0,0,1-1.84-6c.87-3.16,1.4-6.41,2.1-9.78.46.25,1,.5,1.42.78,6.4,3.86,12.8,7.7,19.17,11.62a2.32,2.32,0,0,0,2.82,0c6.48-3.93,13-7.78,19.51-11.66C63.88,40.86,64.33,40.61,65,40.21Z"/>
+                            <path class="ico-cursos-2" d="M5.91,30c.6,6.22,1,12.47,1.86,18.65.43,3.13-.4,5.75-1.87,8.62a.34.34,0,0,1-.56.07,9.9,9.9,0,0,1-1.78-7.26c.78-6.23,1.26-12.51,1.88-18.76,0-.45.13-.89.2-1.33Z"/>
+                        </svg>
                     </div>
                     <h2>Cursos de Hacking Ético</h2>
                     <p class="lead mb-0">Cursos personalizados de entrenamiento en Hacking Ético de excelente calidad al mejor precio del mercado</p>
@@ -135,7 +149,7 @@
     <div class="container">
         <h1 class="mb-5 text-center"><b>Cursos</b></h1>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-3 col-sm-6">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <img class="img-fluid img-circle mb-3" src="img/bg-showcase-1.jpg" alt="">
                     <div class="wow-pricing-table">
@@ -156,6 +170,7 @@
 
                                         <div id="demo2" class="collapse">
                                             <p>Dirigido a nuevos usuarios, con el objetivo de crear una base sólida de conocimientos sobre la linea de comandos, redes y tareas básicas de administración en un sistema GNU/Linux.</p>
+                                            <p>Más Información: <a href="#">Temario</a></p>
                                         </div>
                                     </div></li>
                                 </ul>
@@ -167,13 +182,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3 col-sm-6">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <img class="img-fluid img-circle mb-3" src="img/bg-showcase-2.jpg" alt="">
                     <div class="wow-pricing-table">
                         <div class="wow-pricing">
                             <div class="wow-pricing-header">
-                                <h5>Hacking Etico</h5>
+                                <h5>Introducción al Hacking Etico</h5>
                                 <div class="wow-pricing-cost">
                                     <p>$100</p>
                                 </div>
@@ -181,13 +196,47 @@
                             <div class="wow-pricing-content">
                                 <ul>
                                     <li>Principiante</li>
-                                    <li>6 semanas</li>
+                                    <li>3 semanas</li>
                                     <li>3 sesiones por semana</li>
                                     <li><div>
                                         <a href="#demo3" class="detalles" data-toggle="collapse">Detalles</a>
 
                                         <div id="demo3" class="collapse">
                                             <p>Nuestro Curso de Introducción al Hacking Ético parte la experiencia real en campo que tienen nuestros instructores realizando procesos de auditoría</p>
+                                            <p>Más Información: <a href="#">Temario</a></p>
+                                        </div>
+                                    </div></li>
+                                </ul>
+                            </div>
+                            <div class="wow-pricing-button">
+                                <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow" onclick="hackingEtico()"><span class="wow-button-inner">Contactar</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid img-circle mb-3" src="img/bg-showcase-2.jpg" alt="">
+                    <div class="wow-pricing-table">
+                        <div class="wow-pricing">
+                            <div class="wow-pricing-header">
+                                <h5>Hacking Etico Avanzado</h5>
+                                <div class="wow-pricing-cost">
+                                    <p>$100</p>
+                                </div>
+                            </div>
+                            <div class="wow-pricing-content">
+                                <ul>
+                                    <li>Medio-Avanzado</li>
+                                    <li>3 semanas</li>
+                                    <li>3 sesiones por semana</li>
+                                    <li><div>
+                                        <a href="#demo1" class="detalles" data-toggle="collapse">Detalles</a>
+
+                                        <div id="demo1" class="collapse">
+                                            <p>Nuestro Curso de Introducción al Hacking Ético parte la experiencia real en campo que tienen nuestros instructores realizando procesos de auditoría</p>
+                                            <p>Más Información: <a href="#">Temario</a></p>
                                         </div>
                                     </div></li>
                                 </ul>
@@ -199,7 +248,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3 col-sm-6">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <img class="img-fluid img-circle mb-3" src="img/bg-showcase-3.jpg" alt="">
                     <div class="wow-pricing-table">
@@ -221,6 +270,7 @@
 
                                         <div id="demo4" class="collapse">
                                             <p>Si usted necesita un curso personalizado sobre una o varias herramientas, puede ponerse en contacto con nuestro equipo para solicitar un Curso Personalizado según sus intereses.</p>
+                                            <p>Más Información: <a href="#">Temario</a></p>
                                         </div>
                                     </div></li>
 
@@ -246,14 +296,14 @@
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
                     <h3>Maiko C.</h3>
-                    <p class="font-weight-light mb-0">"Administrador de Sistemas, RedTeam PenTester, Instructor."</p>
+                    <p class="font-weight-light mb-0">"Investigadora en Ciberseguridad, Instructora."</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
                     <h3>Raúl A.</h3>
-                    <p class="font-weight-light mb-0">"Consultor de Ciberseguridad, RedTeam PenTester, Instructor, Fundador de CyberSecurity Academy."</p>
+                    <p class="font-weight-light mb-0">"Instructor, Fundador de CyberSecurity Academy."</p>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -263,6 +313,11 @@
                     <p class="font-weight-light mb-0">"Desarrolladora Web Front-End."</p>
                 </div>
             </div>
+        </div>
+        <br>
+        <div>
+
+
         </div>
     </div>
 </section>
@@ -296,26 +351,31 @@
         <div class="row">
             <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
                 <p class="text-muted small mb-4 mb-lg-0">&copy; CS-Academy 2019. All Rights Reserved.</p>
+                    <a class="text-muted" href="mailto:info@cs-academy.org?" target="_top" id="mail">
+                        <i class="fa fa-envelope" id="mail-ico"></i>
+                        e-mail: info@cs-academy.org
+                    </a>
             </div>
+
             <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item mr-3">
-                        <a href="https://wa.me/19542719562">
+                        <a target="_blank" href="https://wa.me/19542719562">
                             <i class="fab fa-whatsapp fa-2x fa-fw"></i>
                         </a>
                     </li>
                     <li class="list-inline-item mr-3">
-                        <a href="https://t.me/CS_Academy">
+                        <a target="_blank" href="https://t.me/CS_Academy">
                             <i class="fab fa-telegram fa-2x fa-fw"></i>
                         </a>
                     </li>
                     <li class="list-inline-item mr-3">
-                        <a href="https://youtube.com/ParrotSecSchool">
+                        <a target="_blank" href="https://youtube.com/ParrotSecSchool">
                             <i class="fab fa-youtube fa-2x fa-fw"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://twitter.com/csacademy_org">
+                        <a target="_blank" href="https://twitter.com/csacademy_org">
                             <i class="fab fa-twitter fa-2x fa-fw"></i>
                         </a>
                     </li>
@@ -325,16 +385,18 @@
     </div>
 </footer>
 
-<script src="js/sendEmail.js"></script>
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
-<script src="js/typingEffect.js"></script>
-<script src="js/jquery.js"></script>
-
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="js/modernizr.custom.72111.js"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Custom -->
+<script src="js/send-email.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/typingEffect.js"></script>
+<script src="js/scrolling-nav.js"></script>
+<script src="js/jquery.js"></script>
 
 </body>
 
