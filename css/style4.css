@@ -33,6 +33,23 @@ ul{
 
 /*Para navbar
 ---------------------------------------------------------*/
+.navbar {
+   min-height: 50px;
+}
+  
+.navbar-brand {
+   color: #000c1a;
+   padding: 0 15px;
+   height: 50px;
+   line-height: 50px;
+}
+
+.navbar-toggle {
+/* (80px - button height 34px) / 2 = 23px */
+    margin-top: 8px;
+    padding: 9px 10px !important;
+}
+
 #nav {
     padding-right: 0;
 }
@@ -51,9 +68,7 @@ a.nav-link {
 a.nav-link:hover {
     color: #007BFF;
 }
-.navbar-brand{
-    color: #000c1a;
-}
+
 .navbar-brand:hover{
     color: #007BFF;
 }
@@ -75,7 +90,7 @@ a.navbar-brand{
     background-color: #000c1a;
 }
 
-.navbar-toggle{
+.navbar-toggler{
     margin-right: 5px;
 }
 
