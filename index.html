@@ -5,24 +5,29 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144827768-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-144827768-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-144827768-1');
     </script>
-    
+
     <!--Meta-->
     <title>CS-Academy</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta title="CS-Academy">
-    <meta name="description" content="Ofrecemos Cursos de Ciberseguridad, Hacking Ético, Consultoría de Ciberseguridad, Servicios de Auditorías e Informática Forense">
-    <meta name="keywords" content="hacking, pentesting, training, wireless hacking, linux, ciberseguridad, CyberSecurity, ParrotOS, parrotsec, ParrotSecSchool, servicios de informatica, auditorías de seguridad, cursos de hacking, cursos de entrenamiento, cursos de ciberseguridad, forensics" />
+    <meta name="description"
+        content="Ofrecemos Cursos de Ciberseguridad, Hacking Ético, Consultoría de Ciberseguridad, Servicios de Auditorías e Informática Forense">
+    <meta name="keywords"
+        content="hacking, pentesting, training, wireless hacking, linux, ciberseguridad, CyberSecurity, ParrotOS, parrotsec, ParrotSecSchool, servicios de informatica, auditorías de seguridad, cursos de hacking, cursos de entrenamiento, cursos de ciberseguridad, forensics" />
     <meta name="author" content="CS-Academy">
     <link rel="shortcut icon" href="img/csacademy.ico">
-    
-    
+
+
 
     <!-- Bootstrap core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -30,8 +35,9 @@
     <!-- Custom fonts for this template-->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
+
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="css/landing-page.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -43,378 +49,419 @@
 
 <body id="page-top">
 
-<!-- Navigation -->
-<nav class=" navbar navbar-fixed-top navbar-expand-md bg-light" id="mainNav">
-    <div class="container-fluid" >
-        <div class="navbar-header visible-md visible-lg visible-xl col-md-2 col-lg-1 col-xl-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-5 navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <img alt="" class="logo navbar-brand " src="img/logo1.png">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">CS-ACADEMY</a>
-        </div>
-        <div class="collapse navbar-collapse " id="myNavbar">
-            <ul class="navbar-nav  mb-2 ">
-                <li class="nav-item">
-                    <a class="js-scroll-trigger nav-link" href="#servicios">SERVICIOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="js-scroll-trigger nav-link" href="#cursos">CURSOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="js-scroll-trigger nav-link" href="#equipo">NOSOTROS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="js-scroll-trigger nav-link" href="#contact">CONTACTO</a>
-                </li>
-                <div class="clearfix"> </div>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!--Introduccion, particulas
-------------------------------------------------------------->
-<section id="intro">
-    <div class="container-fluid" id="intro-div">
-        <div id="particles-js"></div>
-        <div class="container">
-            <div class="rw-wrapper inside">
-                <div class="rw-sentence col-xs-12">
-                    <span>Cursos de Ciberseguridad <br class="visible-xs">& Auditorías</span>
-                    <div class="rw-words rw-words-1">
-                        <span>Aprende</span>
-                        <span>GNU/Linux</span>
-                        <span>ParrotOS</span>
-                        <span>Hacking</span>
-                        <span>Mejora</span>
-                        <span>Precios</span>
-                    </div>
-                    <div class="rw-words rw-words-2">
-                        <span>desde casa</span>
-                        <span>crea una base sólida</span>
-                        <span>una excelente opción</span>
-                        <span>desde cero</span>
-                        <span>tus habilidades</span>
-                        <span>Económicos</span>
-                    </div>
-                </div>
+    <!-- Navigation -->
+    <nav class=" navbar navbar-fixed-top navbar-expand-md bg-light" id="mainNav">
+        <div class="container-fluid">
+            <div class="navbar-header visible-md visible-lg visible-xl col-md-2 col-lg-1 col-xl-2"></div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-5 navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img alt="" class="logo navbar-brand " src="img/logo1.png">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">CS-ACADEMY</a>
             </div>
-        </div>
-        <div class="container">
-                <p class="typing"><a class="red">&boxdr;&boxh;[</a><a class="green">hacker</a><a class="yellow">@</a><a class="blue">cs-academy</a><a class="red">]&boxh;[</a><a class="green">&backsim;</a><a class="red">]</a> <br><a class="red">&boxur;&boxh;&boxh;</a> <a class="yellow">$</a> <a id="word" class="green"></a><a class="blink">_</a></p>
-        </div>
-        <!--Conocenos-->
-        <div class="container information">
-            <h2 class="mb-5 col-xs-12 text-center">¿Por qué estudiar ciberseguridad?</h2>
-            <p>Con el alto crecimiento de servicios en internet el cibercrimen se ha convertido en una moda en los últimos tiempos y por ello ha crecido la demanda de profesionales en el area de la informática. Cada día las empresas necesitan más profecionales para ocuparse de combatir ciber ataques o anteponerse a estos. En CS-Academy tenemos como objetivo número uno encaminar jovenes que se sienten atraidos por la ciberseguridad y brindarles una educación adecuada con el objetivo formar futuros profecionales en este campo y de esta forma contribuir a un avance tecnológico más seguro.</p>
-            <h2 class="mb-5 col-xs-12 text-center">Ventajas de estudiar en CS-Academy</h2>
-            <p>Ofrecemos cursos de entrenamiento de Hacking Ético ofensivo y defensivo, de los cuales usted puede disfrutar desde la comodidad de su casa, con clases 100% prácticas y al mejor precio del mercado. Le brindamos conocimientos y habilidades, una mezcla perfecta para desarrollar al máximo sus capacidades técnicas y explotar el potencial de cientos de herramientas.</p>
-        </div>
-        <br>
-        <!--div class="container">
-            <p class="typing"><a class="red">&boxdr;&boxh;[</a><a class="green">hacker</a><a class="yellow">@</a><a class="blue">cs-academy</a><a class="red">]&boxh;[</a><a class="green">&backsim;</a><a class="red">]</a> <br><a class="red">&boxur;&boxh;&boxh;</a> <a class="yellow">$</a> <a id="word" class="green"></a><a class="blink">_</a></p>
-        </div-->
-        <br>
-    </div>
-</section>
-
-</section>
-<!-- Servicios -->
-<section id="servicios" class="features-icons text-center">
-    <div class="container">
-        <div class="row col-xs-12">
-            <h1 class="mb-5 col-xs-12 text-center">Servicios</h1>
-            <div class="col-lg-4">
-                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <img src="img/service-1.png" class="service-ico img-responsive">
-                    </div>
-                    <h2>Cursos de Hacking Ético</h2>
-                    <p class="lead mb-0">Cursos personalizados de entrenamiento en Hacking Ético de excelente calidad al mejor precio del mercado</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <img src="img/service-2.png" class="service-ico img-responsive">
-                    </div>
-                    <h2>Auditorías de Seguridad</h2>
-                    <p class="lead mb-0">Auditoría de Aplicaciones Web, Redes Inalámbricas, Soporte Técnico de Seguridad Informática y más</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <img src="img/service-3.png" class="service-ico img-responsive">
-                    </div>
-                    <h2>Análisis Forense</h2>
-                    <p class="lead mb-0">Respuesta rápida a incidentes, Análisis de Logs, Investigaciones Digitales, Recuperación de Datos y Borrado seguro de medios de almacenamiento. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--Cursos-->
-<section id="cursos" class="testimonials text-center ">
-    <div class="container">
-        <h1 class="mb-5 text-center">Cursos</h1>
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid img-circle mb-3" src="img/bg-showcase-1.jpg" alt="">
-                    <div class="wow-pricing-table">
-                        <div class="wow-pricing">
-                            <div class="wow-pricing-header">
-                                <h5>GNU/Linux</h5>
-                                <div class="wow-pricing-cost panel">
-                                    <p class="panel-body">Precio: $50</p>
-                                </div>
-                            </div>
-                            <div class="wow-pricing-content text-lg-left">
-                                <ul>
-                                    <li>Nivel: Básico</li>
-                                    <li>Duración: 6 semanas</li>
-                                    <li>Frecuencias: 3 por semana</li>
-                                    <li>Instructores: Maiko, <a target="_blank" href="http://linkedin.com/in/raulalderete">Raúl</a></li>
-                                    <li><div>
-                                        <a href="#demo2" class="detalles" data-toggle="collapse">Detalles</a>
-
-                                        <div id="demo2" class="collapse">
-                                            <p>Dirigido a nuevos usuarios, con el objetivo de crear una base sólida de conocimientos sobre la linea de comandos, redes y tareas básicas de administración en un sistema GNU/Linux.</p>
-                                            <p>Más Información: <a href="#">Temario</a></p>
-                                        </div>
-                                    </div></li>
-                                </ul>
-                            </div>
-                            <div class="wow-pricing-button">
-                                <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow" onclick="linux()"><span class="wow-button-inner">Contactar</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid img-circle mb-3" src="img/bg-showcase-2.jpg" alt="">
-                    <div class="wow-pricing-table">
-                        <div class="wow-pricing">
-                            <div class="wow-pricing-header">
-                                <h5>Introducción al Hacking Etico</h5>
-                                <div class="wow-pricing-cost panel">
-                                    <p class="panel-body">Precio: $100</p>
-                                </div>
-                            </div>
-                            <div class="wow-pricing-content text-lg-left">
-                                <ul>
-                                    <li>Nivel: Básico</li>
-                                    <li>Duración: 6 semanas</li>
-                                    <li>Frecuencias: 3 por semana</li>
-                                    <li>Instructor: <a target="_blank" href="http://linkedin.com/in/raulalderete">Raúl Alderete</a></li>
-                                    <li><div>
-                                        <a href="#demo3" class="detalles" data-toggle="collapse">Detalles</a>
-
-                                        <div id="demo3" class="collapse">
-                                            <p>Nuestro Curso de Introducción al Hacking Ético parte la experiencia real en campo que tienen nuestros instructores realizando procesos de auditoría</p>
-                                            <p>Más Información: <a href="#">Temario</a></p>
-                                        </div>
-                                    </div></li>
-                                </ul>
-                            </div>
-                            <div class="wow-pricing-button">
-                                <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow" onclick="hackingEtico()"><span class="wow-button-inner">Contactar</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid img-circle mb-3" src="img/bg-showcase-2.jpg" alt="">
-                    <div class="wow-pricing-table">
-                        <div class="wow-pricing">
-                            <div class="wow-pricing-header">
-                                <h5>Hacking Etico Avanzado</h5>
-                                <div class="wow-pricing-cost panel">
-                                    <p class="panel-body">Precio: $100</p>
-                                </div>
-                            </div>
-                            <div class="wow-pricing-content text-lg-left">
-                                <ul>
-                                    <li>Nivel: Medio-Avanzado</li>
-                                    <li>Duración: 8 semanas</li>
-                                    <li>Frecuencias: 3 por semana</li>
-                                    <li>Instructor: <a target="_blank" href="http://linkedin.com/in/raulalderete">Raúl Alderete</a></li>
-                                    <li><div>
-                                        <a href="#demo1" class="detalles" data-toggle="collapse">Detalles</a>
-
-                                        <div id="demo1" class="collapse">
-                                            <p>Nuestro Curso de Hacking Ético Avanzado va dirigido a los estudiantes que quieran profundizar en el uso de técnicas y herramietnas más avanzadas</p>
-                                            <p>Más Información: <a href="#">Temario</a></p>
-                                        </div>
-                                    </div></li>
-                                </ul>
-                            </div>
-                            <div class="wow-pricing-button">
-                                <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow" onclick="hackingAvanzado()"><span class="wow-button-inner">Contactar</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid img-circle mb-3" src="img/bg-showcase-3.jpg" alt="">
-                    <div class="wow-pricing-table">
-                        <div class="wow-pricing">
-                            <div class="wow-pricing-header">
-                                <h5>Curso Personalizado</h5>
-                                <div class="wow-pricing-cost panel">
-                                    <p class="panel-body">Precio: $25-$50</p>
-                                </div>
-                            </div>
-                            <div class="wow-pricing-content text-lg-left">
-                                <ul>
-                                    <li>Nivel: N/A</li>
-                                    <li>Duración: 1 semanas</li>
-                                    <li>Frecuencias: 3 por semana</li>
-                                    <li>Instructor: <a target="_blank" href="http://linkedin.com/in/raulalderete">Raúl Alderete</a></li>
-                                    <li><div>
-                                        <a href="#demo4"class="detalles"  data-toggle="collapse">Detalles</a>
-
-                                        <div id="demo4" class="collapse">
-                                            <p>Si usted necesita un curso personalizado sobre una o varias herramientas, puede ponerse en contacto con nuestro equipo para solicitar un Curso Personalizado según sus intereses.</p>
-                                            <p>Más Información: <a href="#">Temario</a></p>
-                                        </div>
-                                    </div></li>
-
-                                </ul>
-                            </div>
-                            <div class="wow-pricing-button">
-                                <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow" onclick="personalizado()"><span class="wow-button-inner">Contactar</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- The Team -->
-<section id="equipo" class="testimonials text-center ">
-    <div class="container">
-        <h1 class="mb-5">NOSOTROS</h1>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-                    <h2>Maiko C.</h2>
-                    <p class="font-weight-light mb-0">"Administrador de Sistemas, PenTester, Instructor."</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-                    <h2><a target="_blank" href="http://linkedin.com/in/raulalderete">Raúl A.</a></h2>
-                    <p class="font-weight-light mb-0">"Consultor de Ciberseguridad, RedTeam PenTester, Instructor, Fundador de CyberSecurity Academy."</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-                    <h2>Claudia S.</h2>
-                    <p class="font-weight-light mb-0">"Desarrolladora Web Front-End."</p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div>
-
-
-        </div>
-    </div>
-</section>
-
-<!-- Contacto
-================================================== -->
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <h1 class="mb-4">CONTÁCTANOS</h1>
-                <hr class="linea">
-                <div class="regularform">
-                    <form action="javascript:sendMail();" name="pmForm" id="contactform" method="post">
-                        <input type="text" name="pmSubject" id="pmSubject" maxlength="64" style="width:98%;" placeholder="Asunto *" />
-                        <textarea name="pmBody" id="pmBody" maxlength="64" style="width:98%;" placeholder="Comentario *"></textarea>
-                        <input type="submit" name="pmSubmit" id="pmSubmit" class="btn" value="Enviar Mensaje"/>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- Footer -->
-<footer class="footer ">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                <p class="text-muted small mb-4 mb-lg-0">&copy; CS-Academy 2019. All Rights Reserved.</p>
-                <a class="text-muted" href="mailto:info@cs-academy.org?" target="_top" id="mail">
-                    <i class="fa fa-envelope" id="mail-ico"></i>
-                    e-mail: info@cs-academy.org
-                </a>
-            </div>
-
-            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item mr-3">
-                        <a target="_blank" href="https://wa.me/19542719562">
-                            <i class="fab fa-whatsapp fa-2x fa-fw"></i>
-                        </a>
+            <div class="collapse navbar-collapse " id="myNavbar">
+                <ul class="navbar-nav  mb-2 ">
+                    <li class="nav-item">
+                        <a class="js-scroll-trigger nav-link" href="#servicios">SERVICIOS</a>
                     </li>
-                    <li class="list-inline-item mr-3">
-                        <a target="_blank" href="https://t.me/CS_Academy">
-                            <i class="fab fa-telegram fa-2x fa-fw"></i>
-                        </a>
+                    <li class="nav-item">
+                        <a class="js-scroll-trigger nav-link" href="#cursos">CURSOS</a>
                     </li>
-                    <li class="list-inline-item mr-3">
-                        <a target="_blank" href="https://youtube.com/ParrotSecSchool">
-                            <i class="fab fa-youtube fa-2x fa-fw"></i>
-                        </a>
+                    <li class="nav-item">
+                        <a class="js-scroll-trigger nav-link" href="#equipo">NOSOTROS</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/csacademy_org">
-                            <i class="fab fa-twitter fa-2x fa-fw"></i>
-                        </a>
+                    <li class="nav-item">
+                        <a class="js-scroll-trigger nav-link" href="#contact">CONTACTO</a>
                     </li>
+                    <div class="clearfix"> </div>
                 </ul>
             </div>
         </div>
-    </div>
-</footer>
+    </nav>
 
-<!-- Bootstrap core JavaScript -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<!-- Custom -->
-<script src="js/send-email.js"></script>
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
-<script src="js/typingEffect.js"></script>
-<script src="js/scrolling-nav.js"></script>
-<script src="js/jquery.js"></script>
+    <!--Introduccion, particulas
+------------------------------------------------------------->
+    <section id="intro">
+        <div class="container-fluid" id="intro-div">
+            <div id="particles-js"></div>
+            <div class="container">
+                <div class="rw-wrapper inside">
+                    <div class="rw-sentence col-xs-12">
+                        <span>Cursos de Ciberseguridad <br class="visible-xs">& Auditorías</span>
+                        <div class="rw-words rw-words-1">
+                            <span>Aprende</span>
+                            <span>GNU/Linux</span>
+                            <span>ParrotOS</span>
+                            <span>Hacking</span>
+                            <span>Mejora</span>
+                            <span>Precios</span>
+                        </div>
+                        <div class="rw-words rw-words-2">
+                            <span>desde casa</span>
+                            <span>crea una base sólida</span>
+                            <span>una excelente opción</span>
+                            <span>desde cero</span>
+                            <span>tus habilidades</span>
+                            <span>Económicos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <p class="typing"><a class="red">&boxdr;&boxh;[</a><a class="green">hacker</a><a class="yellow">@</a><a
+                        class="blue">cs-academy</a><a class="red">]&boxh;[</a><a class="green">&backsim;</a><a
+                        class="red">]</a> <br><a class="red">&boxur;&boxh;&boxh;</a> <a class="yellow">$</a> <a
+                        id="word" class="green"></a><a class="blink">_</a></p>
+            </div>
+            <!--Conocenos-->
+            <div class="container information">
+                <h2 class="mb-5 col-xs-12 text-center">¿Por qué estudiar ciberseguridad?</h2>
+                <p>Con el alto crecimiento de servicios en internet el cibercrimen se ha convertido en una moda en los
+                    últimos tiempos y por ello ha crecido la demanda de profesionales en el area de la informática. Cada
+                    día las empresas necesitan más profecionales para ocuparse de combatir ciber ataques o anteponerse a
+                    estos. En CS-Academy tenemos como objetivo número uno encaminar jovenes que se sienten atraidos por
+                    la ciberseguridad y brindarles una educación adecuada con el objetivo formar futuros profecionales
+                    en este campo y de esta forma contribuir a un avance tecnológico más seguro.</p>
+                <h2 class="mb-5 col-xs-12 text-center">Ventajas de estudiar en CS-Academy</h2>
+                <p>Ofrecemos cursos de entrenamiento de Hacking Ético ofensivo y defensivo, de los cuales usted puede
+                    disfrutar desde la comodidad de su casa, con clases 100% prácticas y al mejor precio del mercado. Le
+                    brindamos conocimientos y habilidades, una mezcla perfecta para desarrollar al máximo sus
+                    capacidades técnicas y explotar el potencial de cientos de herramientas.</p>
+            </div>
+            <br>
+            <!--div class="container">
+            <p class="typing"><a class="red">&boxdr;&boxh;[</a><a class="green">hacker</a><a class="yellow">@</a><a class="blue">cs-academy</a><a class="red">]&boxh;[</a><a class="green">&backsim;</a><a class="red">]</a> <br><a class="red">&boxur;&boxh;&boxh;</a> <a class="yellow">$</a> <a id="word" class="green"></a><a class="blink">_</a></p>
+        </div-->
+            <br>
+        </div>
+    </section>
+
+    </section>
+    <!-- Servicios -->
+    <section id="servicios" class="features-icons text-center">
+        <div class="container">
+            <div class="row col-xs-12">
+                <h1 class="mb-5 col-xs-12 text-center">Servicios</h1>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img src="img/service-1.png" class="service-ico img-responsive">
+                        </div>
+                        <h2>Cursos de Hacking Ético</h2>
+                        <p class="lead mb-0">Cursos personalizados de entrenamiento en Hacking Ético de excelente
+                            calidad al mejor precio del mercado</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img src="img/service-2.png" class="service-ico img-responsive">
+                        </div>
+                        <h2>Auditorías de Seguridad</h2>
+                        <p class="lead mb-0">Auditoría de Aplicaciones Web, Redes Inalámbricas, Soporte Técnico de
+                            Seguridad Informática y más</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img src="img/service-3.png" class="service-ico img-responsive">
+                        </div>
+                        <h2>Análisis Forense</h2>
+                        <p class="lead mb-0">Respuesta rápida a incidentes, Análisis de Logs, Investigaciones Digitales,
+                            Recuperación de Datos y Borrado seguro de medios de almacenamiento. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cursos-->
+    <section id="cursos" class="testimonials text-center ">
+        <div class="container">
+            <h1 class="mb-5 text-center">Cursos</h1>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid img-circle mb-3" src="img/bg-showcase-1.jpg" alt="">
+                        <div class="wow-pricing-table">
+                            <div class="wow-pricing">
+                                <div class="wow-pricing-header">
+                                    <h5>GNU/Linux</h5>
+                                    <div class="wow-pricing-cost panel">
+                                        <p class="panel-body">Precio: $50</p>
+                                    </div>
+                                </div>
+                                <div class="wow-pricing-content text-lg-left">
+                                    <ul>
+                                        <li>Nivel: Básico</li>
+                                        <li>Duración: 6 semanas</li>
+                                        <li>Frecuencias: 3 por semana</li>
+                                        <li>Instructores: Maiko, <a target="_blank"
+                                                href="http://linkedin.com/in/raulalderete">Raúl</a></li>
+                                        <li>
+                                            <div>
+                                                <a href="#demo2" class="detalles" data-toggle="collapse">Detalles</a>
+
+                                                <div id="demo2" class="collapse">
+                                                    <p>Dirigido a nuevos usuarios, con el objetivo de crear una base
+                                                        sólida de conocimientos sobre la linea de comandos, redes y
+                                                        tareas básicas de administración en un sistema GNU/Linux.</p>
+                                                    <p>Más Información: <a href="#">Temario</a></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="wow-pricing-button">
+                                    <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow"
+                                        onclick="linux()"><span class="wow-button-inner">Contactar</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid img-circle mb-3" src="img/bg-showcase-2.jpg" alt="">
+                        <div class="wow-pricing-table">
+                            <div class="wow-pricing">
+                                <div class="wow-pricing-header">
+                                    <h5>Introducción al Hacking Etico</h5>
+                                    <div class="wow-pricing-cost panel">
+                                        <p class="panel-body">Precio: $100</p>
+                                    </div>
+                                </div>
+                                <div class="wow-pricing-content text-lg-left">
+                                    <ul>
+                                        <li>Nivel: Básico</li>
+                                        <li>Duración: 6 semanas</li>
+                                        <li>Frecuencias: 3 por semana</li>
+                                        <li>Instructor: <a target="_blank"
+                                                href="http://linkedin.com/in/raulalderete">Raúl Alderete</a></li>
+                                        <li>
+                                            <div>
+                                                <a href="#demo3" class="detalles" data-toggle="collapse">Detalles</a>
+
+                                                <div id="demo3" class="collapse">
+                                                    <p>Nuestro Curso de Introducción al Hacking Ético parte la
+                                                        experiencia real en campo que tienen nuestros instructores
+                                                        realizando procesos de auditoría</p>
+                                                    <p>Más Información: <a href="#">Temario</a></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="wow-pricing-button">
+                                    <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow"
+                                        onclick="hackingEtico()"><span class="wow-button-inner">Contactar</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid img-circle mb-3" src="img/bg-showcase-2.jpg" alt="">
+                        <div class="wow-pricing-table">
+                            <div class="wow-pricing">
+                                <div class="wow-pricing-header">
+                                    <h5>Hacking Etico Avanzado</h5>
+                                    <div class="wow-pricing-cost panel">
+                                        <p class="panel-body">Precio: $100</p>
+                                    </div>
+                                </div>
+                                <div class="wow-pricing-content text-lg-left">
+                                    <ul>
+                                        <li>Nivel: Medio-Avanzado</li>
+                                        <li>Duración: 8 semanas</li>
+                                        <li>Frecuencias: 3 por semana</li>
+                                        <li>Instructor: <a target="_blank"
+                                                href="http://linkedin.com/in/raulalderete">Raúl Alderete</a></li>
+                                        <li>
+                                            <div>
+                                                <a href="#demo1" class="detalles" data-toggle="collapse">Detalles</a>
+
+                                                <div id="demo1" class="collapse">
+                                                    <p>Nuestro Curso de Hacking Ético Avanzado va dirigido a los
+                                                        estudiantes que quieran profundizar en el uso de técnicas y
+                                                        herramietnas más avanzadas</p>
+                                                    <p>Más Información: <a href="#">Temario</a></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="wow-pricing-button">
+                                    <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow"
+                                        onclick="hackingAvanzado()"><span class="wow-button-inner">Contactar</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid img-circle mb-3" src="img/bg-showcase-3.jpg" alt="">
+                        <div class="wow-pricing-table">
+                            <div class="wow-pricing">
+                                <div class="wow-pricing-header">
+                                    <h5>Curso Personalizado</h5>
+                                    <div class="wow-pricing-cost panel">
+                                        <p class="panel-body">Precio: $25-$50</p>
+                                    </div>
+                                </div>
+                                <div class="wow-pricing-content text-lg-left">
+                                    <ul>
+                                        <li>Nivel: N/A</li>
+                                        <li>Duración: 1 semanas</li>
+                                        <li>Frecuencias: 3 por semana</li>
+                                        <li>Instructor: <a target="_blank"
+                                                href="http://linkedin.com/in/raulalderete">Raúl Alderete</a></li>
+                                        <li>
+                                            <div>
+                                                <a href="#demo4" class="detalles" data-toggle="collapse">Detalles</a>
+
+                                                <div id="demo4" class="collapse">
+                                                    <p>Si usted necesita un curso personalizado sobre una o varias
+                                                        herramientas, puede ponerse en contacto con nuestro equipo para
+                                                        solicitar un Curso Personalizado según sus intereses.</p>
+                                                    <p>Más Información: <a href="#">Temario</a></p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="wow-pricing-button">
+                                    <a href="#contact" class="wow-button buttonprice" target="_self" rel="nofollow"
+                                        onclick="personalizado()"><span class="wow-button-inner">Contactar</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Team -->
+    <section id="equipo" class="testimonials text-center ">
+        <div class="container">
+            <h1 class="mb-5">NOSOTROS</h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+                        <h2>Maiko C.</h2>
+                        <p class="font-weight-light mb-0">"Administrador de Sistemas, PenTester, Instructor."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+                        <h2><a target="_blank" href="http://linkedin.com/in/raulalderete">Raúl A.</a></h2>
+                        <p class="font-weight-light mb-0">"Consultor de Ciberseguridad, RedTeam PenTester, Instructor,
+                            Fundador de CyberSecurity Academy."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+                        <h2>Claudia S.</h2>
+                        <p class="font-weight-light mb-0">"Desarrolladora Web Front-End."</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto
+================================================== -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h1 class="mb-4">CONTÁCTANOS</h1>
+                    <hr class="linea">
+                    <div class="regularform">
+                        <form action="javascript:sendMail();" name="pmForm" id="contactform" method="post">
+                            <input type="text" name="pmSubject" id="pmSubject" maxlength="64" style="width:98%;"
+                                placeholder="Asunto *" />
+                            <textarea name="pmBody" id="pmBody" maxlength="64" style="width:98%;"
+                                placeholder="Comentario *"></textarea>
+                            <input type="submit" name="pmSubmit" id="pmSubmit" class="btn" value="Enviar Mensaje" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; CS-Academy 2019. All Rights Reserved.</p>
+                    <a class="text-muted" href="mailto:info@cs-academy.org?" target="_top" id="mail">
+                        <i class="fa fa-envelope" id="mail-ico"></i>
+                        e-mail: info@cs-academy.org
+                    </a>
+                </div>
+
+                <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://wa.me/19542719562">
+                                <i class="fab fa-whatsapp fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://t.me/CS_Academy">
+                                <i class="fab fa-telegram fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://youtube.com/ParrotSecSchool">
+                                <i class="fab fa-youtube fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://twitter.com/csacademy_org">
+                                <i class="fab fa-twitter fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom -->
+    <script src="js/send-email.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/typingEffect.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.js"></script>
 
 </body>
 
