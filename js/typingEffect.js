@@ -4,7 +4,7 @@
 const words = [
     "proxychains ","anonsurf ","recon-ng ","ncat ",
     "nbtscan ", "nmap ","searchsploit ","msfconsole ",
-    "msfvenom ","mimihatz ","tshark ","hydra ",
+    "msfvenom ","mimikatz ","tshark ","hydra ",
     "medusa ","john ","ncrack ","hashcat ",
     "aircrack-ng ","aireplay-ng ","mdk3","reaver",
     "pyrit ", "setoolkit ","ettercap ","dsniff ",
