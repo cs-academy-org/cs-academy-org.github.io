@@ -319,26 +319,28 @@ a.navbar-brand{
 
 .wow-pricing-table .wow-pricing-header {
     text-align:center;
-    padding:20px 0px 0px 0 ;
+    padding:20px 0px 0px 0;
 }
 .wow-pricing-table .wow-pricing-header h5 {
     color:#fff;
     font-size:22px;
     margin:0;
-    padding:0 20px 15px;
+    padding:0 10px 5px;
     height: 64px;
 }
-.wow-pricing-table .wow-pricing-cost {
-    color:#fff;
-    font-size:1.500em;
-    line-height:1em;
-    background:#007BFF;
-}
-.wow-pricing-table .wow-pricing-cost>p{
+.wow-pricing-cost {
+    font-size: 3rem;
     margin: 0;
-    padding:10px;
 }
 
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+  background-color: #000c1a !important;
+}
 
 .wow-pricing-table .wow-pricing-content {
     text-align:center;
