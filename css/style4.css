@@ -4,7 +4,7 @@
 body{
     font-family: 'Roboto', serif;
     background-attachment: fixed;
-	background-size: cover;
+    background-size: cover;
     font-size: 18px;
     color: #ffffff;
     background-color: #000c1a;
@@ -34,11 +34,12 @@ ul{
 /*Para navbar
 ---------------------------------------------------------*/
 .navbar {
-   min-height: 50px;
+   max-height: 70px;
+   background-color: #00022b !important;
 }
   
 .navbar-brand {
-   color: #000c1a;
+   color: #ffffff;
    padding: 0 15px;
    height: 50px;
    line-height: 50px;
@@ -63,14 +64,14 @@ ul{
 a.nav-link {
     /*padding-left: 20px !important;*/
     font-weight: bold;
-    color: #000c1a;
+    color: #ffffff;
 }
 a.nav-link:hover {
     color: #007BFF;
 }
 
 .navbar-brand:hover{
-    color: #007BFF;
+    color: #fffff;
 }
 
 .logo.navbar-brand{
