@@ -34,21 +34,17 @@ ul{
 /*Para navbar
 ---------------------------------------------------------*/
 .navbar {
-   max-height: 70px;
    background-color: #000c1a !important;
+   height: 60px;
+   line-height: 60px;
+   white-space: nowrap;
 }
-  
+
 .navbar-brand {
    color: #ffffff;
    padding: 0 15px;
    height: 50px;
    line-height: 50px;
-}
-
-.navbar-toggle {
-/* (80px - button height 34px) / 2 = 23px */
-    margin-top: 8px;
-    padding: 9px 10px !important;
 }
 
 #nav {
@@ -62,8 +58,6 @@ ul{
 }
 
 a.nav-link {
-    /*padding-left: 20px !important;*/
-    font-weight: bold;
     color: #ffffff;
 }
 a.nav-link:hover {
@@ -87,17 +81,7 @@ a.navbar-brand{
     padding-right: 0;
     padding-left: 0;
 }
-.icon-bar{
-    background-color: #ffffff;
-}
 
-.navbar-toggler{
-    margin-right: 5px;
-}
-
-#myNavbar{
-    text-align: center;
-}
 
 /*Efecto particulas
 --------------------------------------------------------------*/
